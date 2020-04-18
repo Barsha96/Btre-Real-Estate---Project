@@ -1,0 +1,46 @@
+## listing 
+id: INT 
+realtor: INT (foreign key realtor)
+title: str 
+address: str 
+city: str 
+state: str 
+zip code: STR 
+description: txt 
+price: INT
+bedroom: INT 
+bathrooms: INT
+garage: INT default 0
+sqft: INT 
+list_date: date
+lot_size: Float
+photo_main: str // coz we are storing location of the image
+is_published: boolean [default = true]
+photo_1: STR
+photo_2: STR
+photo_3: STR
+photo_4: STR
+photo_5: STR
+photo_6: STR
+
+## realtors
+id: INT 
+name: STR 
+photo: STR 
+description: txt
+email: str 
+phone: str 
+is_mvp: boolean [def 0]
+hire date: Date 
+
+
+## contact
+id: INT 
+user_id: INT 
+listing: INT
+listing_id: int 
+name: str 
+email: str 
+phone: str 
+message: text
+contact_date: DATE
