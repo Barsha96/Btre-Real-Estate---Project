@@ -1,0 +1,68 @@
+[33mcommit 4a0280e175208988da361c19f8aa890e3718d953[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Barsha Upadhyaya <barsha.upadhaya1996@gmail.com>
+Date:   Sun Apr 19 18:14:20 2020 +0545
+
+    models listings and realtors migrated
+
+[33mcommit cd5adc06137747410729f87213dbc3f638dd4187[m
+Author: Barsha Upadhyaya <barsha.upadhaya1996@gmail.com>
+Date:   Sun Apr 19 14:03:06 2020 +0545
+
+    balla balla database connected
+
+[33mcommit 42dfa38986569ce5322b020cc61d3725a007fc41[m
+Author: Barsha Upadhyaya <barsha.upadhaya1996@gmail.com>
+Date:   Sat Apr 18 19:08:44 2020 +0545
+
+    inseterd fields in realtors model
+
+[33mcommit a0e2385ac86d872a7109aa2ab206538ec3aa7689[m
+Author: Barsha Upadhyaya <barsha.upadhaya1996@gmail.com>
+Date:   Sat Apr 18 19:00:38 2020 +0545
+
+    inserted all the fields
+
+[33mcommit 871012e6950a61271df2092ccf1f0631e4b126d8[m
+Author: Barsha Upadhyaya <barsha.upadhaya1996@gmail.com>
+Date:   Sat Apr 18 13:31:00 2020 +0545
+
+    postgresql setup
+
+[33mcommit 1a8c80e375e178ac5a6ee9d32fb29859793953fc[m
+Author: Barsha Upadhyaya <barsha.upadhaya1996@gmail.com>
+Date:   Tue Apr 7 11:35:00 2020 +0545
+
+     created listings and realtors app
+    added listings html files and pages in templates
+
+[33mcommit 9ac42237806a39aeaa3923f1fffeba1b6a9a24db[m
+Author: Barsha Upadhyaya <barsha.upadhaya1996@gmail.com>
+Date:   Tue Apr 7 10:15:38 2020 +0545
+
+    index and about pages linked
+
+[33mcommit 9a4066fff3d25742ebf9c8c1aa67786ae3f0cd82[m
+Author: Barsha Upadhyaya <barsha.upadhaya1996@gmail.com>
+Date:   Sat Apr 4 17:05:32 2020 +0545
+
+    added partials and prepared base
+
+[33mcommit a709be917982b8f2d14bc3f239bda1e62b2df73e[m
+Author: Barsha Upadhyaya <barsha.upadhaya1996@gmail.com>
+Date:   Fri Apr 3 16:07:31 2020 +0545
+
+    static files added and tracking ignored
+
+[33mcommit 278ebab537bd01bb09bde4a0537feb6b89063d55[m
+Author: Barsha Upadhyaya <barsha.upadhaya1996@gmail.com>
+Date:   Fri Apr 3 14:31:20 2020 +0545
+
+    added templates and linked
+
+[33mcommit 03ec964b5a2de8a575e3b7d7a47e25690d5ccf4f[m
+Author: Barsha Upadhyaya <barsha.upadhaya1996@gmail.com>
+Date:   Fri Apr 3 13:14:37 2020 +0545
+
+    Django Installed
+    Apps added
+    Completed initial setup
