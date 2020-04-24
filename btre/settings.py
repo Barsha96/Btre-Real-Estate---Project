@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'realtors',
     'listings',
+    'django.contrib.humanize',
 ]
 
 MIDDLEWARE = [
