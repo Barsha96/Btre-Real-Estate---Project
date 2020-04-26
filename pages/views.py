@@ -11,7 +11,6 @@ def index(request):
         'state_choices': state_choices,
         'price_choices':price_choices,
         'bedroom_choices':bedroom_choices
-
     }
     return render(request, 'pages/index.html', context)
 
