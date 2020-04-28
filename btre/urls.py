@@ -9,4 +9,5 @@ urlpatterns = [
     path('listings/', include('listings.urls')), #anything that comes with listings/ will go to listings.urls
     path('accounts/', include('accounts.urls')), #anything that comes with accounts/ will go to accounts.urls
     path('admin/', admin.site.urls), #anything that comes with admin/ will go to admin.site.urls
+    path('contacts/', include('contacts.urls'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
