@@ -139,6 +139,15 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 
+#email config
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'barsha.upadhyaya7@gmail.com'
+EMAIL_HOST_PASSWORD = '4thofJuly'
+EMAIL_USE_TLS = True
+
+#for alerts and messages
+from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger' #displays errors in red --- we have our messages set up in partials
     

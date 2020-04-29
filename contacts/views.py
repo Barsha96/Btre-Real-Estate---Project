@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models import Contact
 from django.contrib import messages
 from django.utils.datastructures import MultiValueDictKeyError
+from django.core.mail import send_mail
 
 
 # Create your views here.
@@ -21,6 +22,11 @@ def contact(request):
         contact.save()
         
     messages.success(request, 'your request has been submitted, a realtor will get back to you soon')
-    is_private = 'is_private' in request.POST
-    print(is_private)
+
+    #now send email 
+    send_mail(
+        'property Listing Inquiry',
+        'there has been an inquiry for' + listing + '. Sign in to view more', 'intense.me0926@gmail.com', ['barsha.upadhaya1996@gmail.com', realtor_email],
+        fail_silently=False
+    )
     return redirect ('/listings/'+listing_id)
